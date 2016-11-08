@@ -1,0 +1,19 @@
+body {
+  position: relative;
+}
+
+.header {
+  font-family: 'Arima Madurai', cursive;
+}
+
+.affix {
+    z-index: 10;
+}
+
+.affix + .container {
+  padding-top: 70px;
+}
+
+.pswp__img {
+  cursor: default !important;
+}
