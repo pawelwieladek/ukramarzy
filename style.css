@@ -1,0 +1,136 @@
+body {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    background-color: #f0ede5;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    padding-left: 30px;
+    font-family: 'Arima Madurai', cursive;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ecdfbe;
+    border-radius: 3px;
+}
+
+.img-responsive {
+    border-radius: 3px;
+}
+
+.lead {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .lead {
+        font-size: 18px;
+    }
+}
+
+.navbar-brand {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 36px;
+  padding: 0;
+  line-height: 70px;
+  height: 70px;
+  padding-left: 30px;
+  transition: all 240ms;
+}
+
+.navbar-default .navbar-brand {
+    color: #333;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #4f82c4;
+}
+
+.navbar-toggle {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.affix {
+    z-index: 10;
+}
+
+.affix + .container {
+  padding-top: 90px;
+}
+
+.pswp__img {
+  cursor: default !important;
+}
+
+.navbar {
+    border: 0;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Arima Madurai', cursive;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    transition: all 240ms;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #a5cdfd;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #4f82c4;
+    background-color: transparent;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+}
+
+.well {
+    border-radius: 3px;
+    border: 0;
+    box-shadow: none;
+    background-color: #f6f4ee;
+}
+
+.features .well {
+    text-align: center;
+}
+
+.pictures figure {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pictures figure a img {
+    border: 5px solid #f6f4ee;
+    transition: all 240ms;
+    border-radius: 3px;
+}
+
+.pictures figure a:hover img {
+    border-color: #a5cdfd;
+}
