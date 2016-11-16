@@ -1,6 +1,6 @@
 body {
     position: relative;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arima Madurai', cursive;
     background-color: #f0ede5;
     font-size: 16px;
 }
@@ -116,8 +116,27 @@ h1, h2, h3 {
     background-color: #f6f4ee;
 }
 
+.well .dl-horizontal {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .well .dl-horizontal dt {
+        width: 80px;
+        color: #777;
+        text-align: left;
+    }
+
+    .well .dl-horizontal dd {
+        margin-left: 100px;
+        font-weight: bold;
+    }
+}
+
 .features .well {
     text-align: center;
+    padding: 10px;
 }
 
 .pictures figure {
